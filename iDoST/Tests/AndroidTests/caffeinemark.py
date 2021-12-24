@@ -34,10 +34,10 @@ class Caffeinemark:
         cmd = "adbShell:dumpsys window window | grep -E 'mCurrentFocus' | grep geekbench.BenchmarkDocument | wc -l"
         self.testArgs['WaitForCompletion'].append(cmd)
         
-        cmd = "adbShell:screencap -p /sdcard/iDoST/geekbench.png"
+        cmd = "adbShell:screencap -p /sdcard/iDoST/caffeinemark.png"
         self.testArgs['ResultActions'].append(cmd)
         
-        cmd = "adbPull:/sdcard/iDoST/geekbench.png {}".format(self.resultDir)
+        cmd = "adbPull:/sdcard/iDoST/caffeinemark.png {}".format(self.resultDir)
         self.testArgs['ResultActions'].append(cmd)
     
     def prepare(self):
@@ -59,6 +59,8 @@ class Caffeinemark:
     def getResult(self):
         for step in self.testArgs['ResultActions']:
             tgt.ExecuteCommand(step)
+        
+        
         
         
         
