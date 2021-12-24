@@ -1,8 +1,0 @@
-caffeinemark:
-https://d-14.winudf.com/b/apk/Y29tLmFuZHJvaWQuY20zXzFfMjNkMzAxZDA?_fn=Q2FmZmVpbmVNYXJrX3YxLjAuMF9hcGtwdXJlLmNvbS5hcGs&_p=Y29tLmFuZHJvaWQuY20z&am=3shAd8WHLIW0aQBjy6ywxA&at=1640094693&k=9c6684b722ae725bedba6bc90bba529561c32d66
-https://download.apkpure.com/b/apk/Y29tLmFuZHJvaWQuY20zXzFfMjNkMzAxZDA?_fn=Q2FmZmVpbmVNYXJrX3YxLjAuMF9hcGtwdXJlLmNvbS5hcGs&as=b1390789a2582ff5fdc1e4e7d162ce7461c1dc5d&ai=553466079&at=1640094693&_sa=ai%2Cat&k=9ac6367b5af73cdf66c181800b11e06161c47ee5&_p=Y29tLmFuZHJvaWQuY20z&c=1%7CTOOLS%7CZGV2PVJhdmklMjBSZWRkeSZ0PWFwayZzPTE2NjQ4JnZuPTEuMC4wJnZjPTE
-
-Geekbench:
-https://apk.apkmonk.com/apkd7-3/com.primatelabs.geekbench5_2021-12-21.apk?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=IFVYHACUO60QSGWW9L9Z%2F20211221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211221T141124Z&X-Amz-Expires=2400&X-Amz-SignedHeaders=host&X-Amz-Signature=0f1485cb295b9f1f1e762c3bfeec5267ad75dbd0fbb3cea7fb176548ed13e735
-
-
