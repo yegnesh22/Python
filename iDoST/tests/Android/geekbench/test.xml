@@ -1,0 +1,19 @@
+<Test>
+	<Name>geekbench</Name>
+	<PreConditions>
+		<Step>Install:geekbench.apk</Step>
+	</PreConditions>
+	<Execute>
+		<Step>Shell:am start com.primatelabs.geekbench5/com.primatelabs.geekbench.HomeActivity</Step>
+		<Step>Shell:sleep 5</Step>
+		<Step>Shell:input tap 1165 1370</Step>
+		<Step>Shell:sleep 1</Step>
+		<Step>Shell:input tap 1060 1650</Step>
+	</Execute>
+	<Result>
+		<Step>ScreenCap:BenchmarkDocumentActivity</Step>
+		<Step>Shell:sleep 5</Step>
+		<Step>Module:scores.GetScore</Step>
+		<Step>Uninstall:com.primatelabs.geekbench5</Step>
+	</Result>
+</Test>

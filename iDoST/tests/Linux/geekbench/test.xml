@@ -1,0 +1,13 @@
+<Test>
+	<Name>geekbench</Name>
+	<PreConditions>
+		<Step>CopyToTarget:Geekbench-5.4.4-Linux.tar.gz /data/</Step>
+		<Step>ExtractOnTarget:/data/Geekbench-5.4.4-Linux.tar.gz</Step>
+	</PreConditions>
+	<Execute>
+		<Step>Shell:/data/Geekbench-5.4.4-Linux/geekbench_x86_64</Step>
+	</Execute>
+	<Result>
+		<Step>Module:scores.GetScore</Step>
+	</Result>
+</Test>

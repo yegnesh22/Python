@@ -1,0 +1,16 @@
+<Test>
+	<Name>caffeinemark</Name>
+	<PreConditions>
+		<Step>Install:caffeinemark.apk</Step>
+	</PreConditions>
+	<Execute>
+		<Step>Shell:am start com.android.cm3/.CaffeineMarkEmbeddedApp</Step>
+	</Execute>
+	<Result>
+		<Step>ScreenCap:CaffeineMarkEmbeddedApp</Step>
+		<Step>Module:scores.GetScore</Step>
+		<Step>Shell:input keyevent KEYCODE_BACK</Step>
+		<Step>Uninstall:com.android.cm3</Step>
+	</Result>
+</Test>
+
