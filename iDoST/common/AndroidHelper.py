@@ -78,7 +78,7 @@ class AndroidHelper:
             timeout = 300
             screen_found = 0
             while ((screen_found < 1) and (timeout > 0)):
-                screen_found = int(self.Shell("dumpsys window windows | grep mCurrentFocus | grep {} | wc -l".format(cmd)))
+                screen_found = int(self.Shell("\"dumpsys window windows | grep mCurrentFocus | grep {} | wc -l\"".format(cmd)))
                 time.sleep(1)
                 timeout = timeout - 1
             if ((timeout == 0) and (screen_found == 0)):
