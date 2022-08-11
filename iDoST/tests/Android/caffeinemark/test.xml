@@ -5,6 +5,7 @@
 	</PreConditions>
 	<Execute>
 		<Step>Shell:am start com.android.cm3/.CaffeineMarkEmbeddedApp</Step>
+		<Step>Shell:input tap 1188 1457</Step>
 	</Execute>
 	<Result>
 		<Step>ScreenCap:CaffeineMarkEmbeddedApp</Step>
